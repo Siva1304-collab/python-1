@@ -1,0 +1,46 @@
+# requirements.txt
+# Greeting Platform - Production Dependencies
+
+# Core dependencies (all are from Python standard library, no installation needed)
+# The application runs with just Python 3.7+
+
+# Optional dependencies for enhanced features:
+
+# For email notifications (if adding email feature)
+# secure-smtplib==0.1.1
+
+# For database support (if upgrading from JSON to database)
+# sqlalchemy==2.0.23
+# psycopg2-binary==2.9.9  # For PostgreSQL
+# pymongo==4.5.0          # For MongoDB
+
+# For web interface (if adding web version)
+# flask==3.0.0
+# flask-login==0.6.2
+# flask-wtf==1.2.1
+
+# For API development (if adding REST API)
+# fastapi==0.104.1
+# uvicorn==0.24.0
+# pydantic==2.5.0
+
+# For report generation
+# reportlab==4.0.4        # For PDF greeting cards
+# openpyxl==3.1.2         # For Excel exports
+
+# For data visualization
+# matplotlib==3.8.2        # For analytics charts
+# pandas==2.1.3            # For data analysis
+
+# For testing
+# pytest==7.4.3
+# pytest-cov==4.1.0
+
+# For additional utilities
+# python-dotenv==1.0.0     # For environment variables
+# click==8.1.7             # For CLI enhancements
+# rich==13.7.0             # For beautiful terminal output
+# colorama==0.4.6          # For cross-platform colored output
+
+# Note: The core application runs without any of these!
+# Install only what you need with: pip install -r requirements.txt
